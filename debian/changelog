@@ -1,3 +1,12 @@
+nodejs-oauth (0.9.0-0sg18) UNRELEASED; urgency=low
+
+  [ Casey Crites ]
+  * Updated the package.json with a new version #
+
+  [ SimpleGeo Nerds ]
+
+ -- SimpleGeo Nerds <nerds@simplegeo.com>  Tue, 31 May 2011 22:14:39 +0000
+
 nodejs-oauth (0.9.0-0sg17) UNRELEASED; urgency=low
 
   [ Your Name ]
