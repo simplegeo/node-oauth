@@ -1,3 +1,9 @@
+nodejs-oauth (0.9.4-0sg59) UNRELEASED; urgency=low
+
+  * UNRELEASED
+
+ -- SimpleGeo Nerds <nerds@simplegeo.com>  Mon, 22 Aug 2011 20:29:52 +0000
+
 nodejs-oauth (0.9.4-0sg0) unstable; urgency=low
 
   * New upstream release
