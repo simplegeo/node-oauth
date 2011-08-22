@@ -1,3 +1,63 @@
+nodejs-oauth (0.9.0-0sg58) UNRELEASED; urgency=low
+
+  [ neyric ]
+  * Follow 302 redirects with "Location" header
+  * Sample express app which uses Google GData API
+
+  [ Evan Meagher ]
+  * Fix typo in README.
+
+  [ ciaranj ]
+  * Added tests for 302 redirect functionality
+
+  [ Brad Davis ]
+  * Updated for express 2.0 and fixed an issue with session where it
+    would loose the functions of the prototype
+
+  [ meltingice ]
+  * Added support for OAuth Echo
+  * Updated README
+  * Refactored OAuthEcho object into oauth.js to remove lots of
+    redundancy
+  * Added signature test for OAuthEcho
+
+  [ ciaranj ]
+  * Some minor reformatting and 'standardisation' of the merged code.
+    Also updating package.json to reflect Echo support
+
+  [ Neil Mansilla ]
+  * Match all 2xx response codes.
+
+  [ ciaranj ]
+  * Inverting the branch logic for easier reading
+  * Add in specific test for supporting 200 responsecode and one for a
+    210 responsecode
+  * Updating readme
+
+  [ selead ]
+  * fix content length for oauth 1.0
+
+  [ ciaranj ]
+  * Adding test for character encoding / body length issue
+  * Updating readme and bumping version number for future release
+  * Adding a configuration mechanism (that may not stay) to allow
+    overriding of the name of the access token used when requesting
+    resources
+
+  [ bdickason ]
+  * Added support and test coverage for following 301 redirects
+
+  [ ciaranj ]
+  * Bumping version number and crediting
+  * Supports OAuth Providers that don't end connections neatly (Google!)
+  * OAuth2 getOAuthAccessToken  now POSTs rather than GET as per the
+    spec (v20)
+  * uggh committed a console.log
+
+  [ SimpleGeo Nerds ]
+
+ -- SimpleGeo Nerds <nerds@simplegeo.com>  Mon, 22 Aug 2011 20:24:02 +0000
+
 nodejs-oauth (0.9.0-0sg57) UNRELEASED; urgency=low
 
   * UNRELEASED
