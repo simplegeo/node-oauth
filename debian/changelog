@@ -1,3 +1,9 @@
+nodejs-oauth (0.9.4-0sg0) unstable; urgency=low
+
+  * New upstream release
+
+ -- Wade Simmons <wade@simplegeo.com>  Mon, 22 Aug 2011 20:26:50 +0000
+
 nodejs-oauth (0.9.0-0sg58) UNRELEASED; urgency=low
 
   [ neyric ]
